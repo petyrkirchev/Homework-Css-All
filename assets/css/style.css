@@ -1,0 +1,373 @@
+@font-face {
+    font-family: 'Permanent Marker';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Permanent Marker'), local('PermanentMarker'), url(https://fonts.gstatic.com/s/permanentmarker/v5/9vYsg5VgPHKK8SXYbf3sMsW72xVeg1938eUHStY_AJ4.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+p.home {
+    font-family: 'Permanent Marker';
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+}
+
+.home a {
+    text-decoration: none;
+    color: lightslategrey;
+}
+
+
+/*TASK 1*/
+
+header.task1 {
+    background-color: #326565;
+    height: 200px;
+}
+
+div.task1 {
+    background-color: #008000;
+    height: 350px;
+    margin: 25px 50px;
+}
+
+footer.task1 {
+    width: 100%;
+}
+
+footer.task1>div {
+    display: inline-block;
+    height: 120px;
+    width: 40%;
+    margin: 0px 50px 50px 50px;
+}
+
+footer.task1>div:first-child {
+    background-color: #800080;
+}
+
+footer.task1>div:nth-child(2) {
+    background-color: #0000ff;
+    float: right;
+}
+
+
+/*TASK2*/
+
+.task2 {
+    margin-top: 10px;
+}
+
+header.task2 {
+    height: 40px;
+    background-color: #000066;
+}
+
+aside.task2 {
+    background-color: #800080;
+    height: 500px;
+    width: 28%;
+    display: inline-block;
+}
+
+section.task2 {
+    background-color: #008000;
+    height: 500px;
+    float: right;
+    width: 70%;
+    display: inline-block;
+}
+
+footer.task2 {
+    background-color: #0000ff;
+    height: 40px;
+}
+
+
+/*TASK 3*/
+
+.task3 {
+    margin-top: 10px;
+}
+
+header.task3 {
+    height: 40px;
+    background-color: #000000;
+}
+
+article.task3,
+section.task3,
+aside.task3 {
+    display: inline-block;
+    height: 500px;
+}
+
+article.task3 {
+    background-color: #800080;
+    width: 20%;
+    float: left;
+}
+
+section.task3 {
+    background-color: #008000;
+    width: 58%;
+    margin-left: 1%;
+}
+
+aside.task3 {
+    background-color: #ff0000;
+    width: 20%;
+    float: right;
+}
+
+footer.task3 {
+    background-color: #0000ff;
+    height: 40px;
+}
+
+
+/*TASK 4*/
+
+.task4 {
+    margin-top: 10px;
+}
+
+body.task4 {
+    width: 60%;
+    margin-left: 10%;
+}
+
+header.task4 {
+    height: 120px;
+    background-color: #497e7e;
+}
+
+section.task4,
+aside.task4 {
+    display: inline-block;
+    height: 500px;
+}
+
+aside.task4 {
+    background-color: #d700ac;
+    width: 20%;
+}
+
+section.task4 {
+    background-color: #49ff00;
+    width: 78%;
+    margin-left: 1%;
+    float: right;
+}
+
+footer.task4 {
+    height: 120px;
+    background-color: #0049ff;
+    width: 100%;
+}
+
+
+/*TASK 5*/
+
+body.task5 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.task5,
+#task5 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header.task5 {
+    color: white;
+    border-bottom: 1px black solid;
+    background-color: #4483c7;
+    width: 70%;
+}
+
+header.task5 h2 {
+    font-weight: normal;
+    margin-left: 1%;
+}
+
+h4.task5 {
+    color: white;
+    background-color: #538620;
+    padding: 1%;
+    margin-top: 0.8%;
+}
+
+h3#task5 {
+    margin-left: 30px;
+}
+
+article.task5 {
+    background-color: #ffffee;
+    border: 1px solid #538620;
+    width: 65%;
+    margin: 30px;
+}
+
+article.task5 a,
+p {
+    margin: 0% 0% 1% 1%;
+}
+
+article.task5 a,
+p:nth-child(3) {
+    color: gray;
+    text-decoration: none;
+}
+
+
+/*TASK 6*/
+
+header.task6 {
+    background-color: #9b6600;
+    height: 100px;
+    width: 1170px;
+    color: white;
+    margin-left: 12em; 
+    
+}
+div.task6{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 1170px;
+    height: 400px;
+    margin-left: 12em; 
+
+  
+}
+
+nav.task6 {
+    background-color: #58201f;
+    float: left;
+    width: 310px;
+    height: 400px;
+    color: white
+}
+
+section.task6 {
+    background-color: #ffffcd;
+    float: left;
+    height: 400px;
+    width: 500px;
+    color: black;
+}
+
+aside.task6 {
+    background-color: #87874b;
+    float: left;
+    width: 360px;
+    height: 400px;
+    color:black;
+}
+aside.task6 h2{
+    opacity: 0.7;
+}
+
+footer.task6 {
+    width: 1170px;
+    height: 60px;
+    margin-top:-5px;
+    background-color: #656565;
+}
+
+
+/*TASK 8*/
+/*Mnogo grozna kartinka ste slojili za zadachata, zatova izbrah nova.*/
+body.task8 {
+  height: 450vh;
+  margin: 0;
+  background-color: black; 
+  
+}
+
+.container {
+  width: 100%;
+  height:100%;
+}
+
+.pieContainer {
+  height: 450px;
+  width: 450px;
+  margin: 180px auto;
+}
+
+.pieContainer {
+  animation: spin 15s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.ball {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  border-radius: 250px;
+  z-index: 999999;
+  box-sizing: border-box;
+}
+
+.ball:after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-image: url("../images/ball.png");
+  border: 2px goldenrod solid;
+  border-radius: 50%;
+  z-index: 999999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: spinball 5s linear forwards;
+}
+.ball::after{
+  width: 10px;
+  height: 10px;
+    z-index: 999999;
+  position: absolute;
+  top: 120px;
+  left: 120px;
+  animation: spinball 5s linear forwards;
+}
+@keyframes spinball {
+  0% {
+    top: 80px;
+    left: 80px;
+  }
+  100% {
+    top: 82px;
+    left: 152px;
+  }
+}
+
+.pieContainer > .ball {
+  animation: spinback 10s;
+}
+
+@keyframes spinback {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-1080deg);
+  }
+}
+
+
+
+
+
+

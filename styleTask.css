@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'Barrio';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Barrio Regular'), local('Barrio-Regular'), url('https://fonts.gstatic.com/s/barrio/v1/ls-_SA5kU_96PIKsj4eeYPesZW2xOQ-xsNqO47m55DA.woff2') format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+body#tasks header{
+    margin-top: 250px;
+}
+body#tasks header nav{
+    text-align: center;
+}
+body#tasks header nav ul{
+    /*margin-left: 240px; */
+    display: inline-block;
+
+}
+body#tasks nav>ul>li{
+    display: inline;
+    margin: 20px;
+}
+body#tasks nav a{
+    text-decoration: none;
+    font-family: 'Barrio';
+    font-size: 18px;
+    color: red;
+}
+body#tasks h1{ 
+    font-size: 1.8em;
+    color: firebrick;
+    text-align: center;
+    font-family: 'Barrio';
+}
+body{
+    background: url("assets/images/background.jpg");
+}
